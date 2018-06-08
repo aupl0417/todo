@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#{% for data in result%}#}
+    {#<a href="{{ U('/Index/test', { logo : data.cl_logo, name : data.cl_name }) }}"><img src="{{ data.cl_logo }}" alt="">{{ data.cl_name }}</a>#}
+{#{% endfor %}#}
+{% if result %}
+{{ result }}
+{% endif %}
+</body>
+</html>

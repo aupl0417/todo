@@ -1,0 +1,14 @@
+{
+    "require": {
+        "twig/twig": "1.29.0",
+        "php": ">=5.2.7",
+        "qiniu/php-sdk": "^7.1",
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
